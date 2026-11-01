@@ -113,13 +113,13 @@ sudo docker compose -f /opt/stacks/services.yml up -d
 
 | Service | URL | Setup |
 |---|---|---|
-| Portainer | http://192.168.0.51:9000 | Create admin account |
-| Nginx Proxy Manager | http://192.168.0.51:81 | Default login: Create admin account |
-| Gitea | http://192.168.0.51:3000 | Create admin account |
-| SearXNG | http://192.168.0.51:8080 | None |
-| Filebrowser | http://192.168.0.51:8081 | Default login: admin / admin |
-| Vaultwarden | http://192.168.0.51:8082 | Create admin account |
-| Uptime Kuma | http://192.168.0.51:3001 | Create admin account |
-| Netdata | http://192.168.0.51:19999 | None or Create admin account |
-| Prometheus | http://192.168.0.51:9090 | None |
-| Grafana | http://192.168.0.51:3002 | Default login: admin / admin |
+| Portainer | http://your_ip:9000 | Create admin account |
+| Nginx Proxy Manager | http://your_ip:81 | Default login: Create admin account |
+| Gitea | http://your_ip:3000 | Create admin account |
+| SearXNG | http://your_ip:8080 | None |
+| Filebrowser | http://your_ip:8081 | Default login: admin / admin |
+| Vaultwarden | http://your_ip:8082 | Create admin account |
+| Uptime Kuma | http://your_ip:3001 | Create admin account |
+| Netdata | http://your_ip:19999 | None or Create admin account |
+| Prometheus | http://your_ip:9090 | None |
+| Grafana | http://your_ip:3002 | Default login: admin / admin |
